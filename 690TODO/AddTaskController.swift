@@ -9,7 +9,7 @@
 import UIKit
 
 
-protocol AddTask{
+protocol AddingATask{
     
     func addTask(name: String)
     
@@ -18,17 +18,17 @@ class AddTaskController: UIViewController {
 
     @IBAction func addAction(_ sender: Any) {
         
-        if taskNameOutlet.text != ""{
+        if theTaskName.text != ""{
             
-            delegate?.addTask(name: taskNameOutlet.text!)
+            taskk?.addTask(name: theTaskName.text!)
             navigationController?.popViewController(animated: true)
         }
         
     }
     
-    @IBOutlet weak var taskNameOutlet: UITextField!
+    @IBOutlet weak var theTaskName: UITextField!
     
-    var delegate: AddTask?
+    var taskk: AddingATask?
     
     
     

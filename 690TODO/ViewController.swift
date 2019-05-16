@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, AddTask, CheckOrUncheckButton {
+class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, AddingATask, CheckOrUncheckButton {
    
     
 
@@ -51,7 +51,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let viewControlller = segue.destination as! AddTaskController
-        viewControlller.delegate = self
+        viewControlller.taskk = self
     }
     
     func addTask(name: String) {
@@ -74,6 +74,8 @@ class Task{
     var completedOrNotCompleted = false
     
     convenience init(name: String){
+        
+        
         self.init()
         self.name = name
     }

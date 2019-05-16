@@ -131,7 +131,7 @@
                         <viewLayoutGuide key="safeArea" id="c4k-xy-35F"/>
                     </view>
                     <connections>
-                        <outlet property="taskNameOutlet" destination="3TY-YW-GJF" id="Z1a-R6-hJl"/>
+                        <outlet property="theTaskName" destination="3TY-YW-GJF" id="Z1a-R6-hJl"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oWE-fS-NwL" userLabel="First Responder" sceneMemberID="firstResponder"/>
