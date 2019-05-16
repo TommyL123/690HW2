@@ -14,6 +14,8 @@
 		21DC049D228CEEC300F8AD5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21DC049B228CEEC300F8AD5C /* LaunchScreen.storyboard */; };
 		21DC04A8228CEEC300F8AD5C /* _90TODOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DC04A7228CEEC300F8AD5C /* _90TODOTests.swift */; };
 		21DC04B3228CEEC300F8AD5C /* _90TODOUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DC04B2228CEEC300F8AD5C /* _90TODOUITests.swift */; };
+		21DC04C1228CF1BF00F8AD5C /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DC04C0228CF1BF00F8AD5C /* TaskCell.swift */; };
+		21DC04C3228CF77000F8AD5C /* AddTaskController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DC04C2228CF77000F8AD5C /* AddTaskController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		21DC04AE228CEEC300F8AD5C /* 690TODOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 690TODOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		21DC04B2228CEEC300F8AD5C /* _90TODOUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _90TODOUITests.swift; sourceTree = "<group>"; };
 		21DC04B4228CEEC400F8AD5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21DC04C0228CF1BF00F8AD5C /* TaskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
+		21DC04C2228CF77000F8AD5C /* AddTaskController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				21DC0492228CEEC200F8AD5C /* AppDelegate.swift */,
 				21DC0494228CEEC200F8AD5C /* ViewController.swift */,
 				21DC0496228CEEC200F8AD5C /* Main.storyboard */,
+				21DC04C2228CF77000F8AD5C /* AddTaskController.swift */,
+				21DC04C0228CF1BF00F8AD5C /* TaskCell.swift */,
 				21DC0499228CEEC300F8AD5C /* Assets.xcassets */,
 				21DC049B228CEEC300F8AD5C /* LaunchScreen.storyboard */,
 				21DC049E228CEEC300F8AD5C /* Info.plist */,
@@ -257,6 +263,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				21DC0495228CEEC200F8AD5C /* ViewController.swift in Sources */,
+				21DC04C1228CF1BF00F8AD5C /* TaskCell.swift in Sources */,
+				21DC04C3228CF77000F8AD5C /* AddTaskController.swift in Sources */,
 				21DC0493228CEEC200F8AD5C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
